@@ -196,6 +196,8 @@
 		<true/>
 		<key>extend</key>
 		<dict>
+			<key>pingpp</key>
+			<string>PGPingpp</string>
 			<key>alix</key>
 			<string>PGAlixPay</string>
 			<key>weixin</key>
@@ -214,6 +216,22 @@
 			<string>PGIFLYSpeech</string>
 		</dict>
 	</dict>
+	<key>OAuth</key>
+	<dict>
+		<key>extend</key>
+		<dict>
+			<key>weibo</key>
+			<string>PGSinaWBOauth</string>
+			<key>qq</key>
+			<string>PGQQOauth</string>
+			<key>weixin</key>
+			<string>PGWXOauth</string>
+		</dict>
+		<key>global</key>
+		<true/>
+		<key>class</key>
+		<string>PGOauthManager</string>
+	</dict>
 	<key>Share</key>
 	<dict>
 		<key>class</key>
@@ -222,6 +240,8 @@
 		<true/>
 		<key>extend</key>
 		<dict>
+			<key>qq</key>
+			<string>PGTencentQQShare</string>
 			<key>tencentweibo</key>
 			<string>PGQQShare</string>
 			<key>sinaweibo</key>
